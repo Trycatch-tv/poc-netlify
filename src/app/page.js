@@ -10,7 +10,7 @@ export default function Home() {
           <code className={styles.code}>src/app/page.js</code>
         </p>
         <p>
-          Modificacion para despliegue
+          Modificacion para despliegue #2
         </p>
         <div>
           <a
