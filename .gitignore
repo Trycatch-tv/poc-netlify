@@ -1,0 +1,24 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Next.js
+.next/
+out/
+
+# Dependencias
+node_modules/
+
+# Archivos generados
+build/
+.DS_Store
+
+# Otros
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.vscode/
