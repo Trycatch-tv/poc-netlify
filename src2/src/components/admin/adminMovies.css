@@ -1,0 +1,188 @@
+/* General page------------------------------- */
+
+.movies-admin {
+  padding: 2%;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--background-black);
+  color: var(--background-white);
+}
+
+.link-button {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 1%;
+  padding: 5%;
+  color: var(--background-black);
+}
+
+.button-add {
+  width: 11%;
+  border-radius: 30px;
+  border-style: none;
+  align-self: flex-end;
+  margin: 3% 11%;
+}
+.button-add:hover {
+  border: var(--background-red) solid 3px;
+}
+
+/* LOADING ----------------------------*/
+
+.lds-dual-ring {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+}
+.lds-dual-ring:after {
+  content: " ";
+  display: flex;
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  border: 6px solid var(--background-white);
+  border-color: var(--background-white) transparent var(--background-white) transparent;
+  animation: lds-dual-ring 1.2s linear infinite;
+}
+@keyframes lds-dual-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/*Group of movies container-------------*/
+
+.movie-list {
+  width: 90%;
+  display: grid;
+  grid-template-columns: repeat(5, 2fr);
+  justify-content: center;
+  align-self: center;
+  justify-items: center;
+}
+
+/* each movie---------------------------------------------------*/
+
+/* buttons*/
+.buttons-container {
+  width: 70%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+
+}
+
+.buttons-edit-delete {
+  background-color: var(--background-red);
+  border-radius: 30px;
+  border-style: none;
+  padding: 3% 5%;
+  justify-content: center;
+  align-items: center;  
+  cursor: pointer;
+  margin: 0;
+}
+
+.buttons-edit-delete:hover {
+  background-color: var(--background-white);
+}
+
+.icon-admin {
+  color: var(--background-white);
+}
+
+.icon-admin:hover{
+  color: var(--background-black);
+}
+
+/*movie*/
+.movie-preview {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 85%;
+  gap: 3%;
+  padding-bottom: 10%;
+}
+
+.movie-preview .movie-poster {
+  width: 100%;
+  border-style: none;
+  border-radius: 10px;
+}
+
+.movie-title {
+  font-weight: 700;
+}
+
+
+/*Confirmation window*/
+
+.confirm-button {
+  padding: 3% 12%;
+  border-style: none;
+  border-radius: 30px;
+  background-color: var(--background-red);
+  color: var(--background-white);
+  margin-bottom: 5%;
+  cursor: pointer;
+}
+
+.deny-button {
+  padding: 2% 10%;
+  border-style: none;
+  border-radius: 30px;
+  background-color:var(--background-white);
+  color: var(--background-black);
+  margin: 0 5% 5% 0;
+  cursor: pointer;
+}
+
+
+.single-movie {
+  margin: 5%;
+}
+
+@media screen and (max-width: 1024px) {
+  .movie-list {
+    transition: 0.8s;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .button-add {
+    transition: 0.5s;
+    width: 150px;
+    border-radius: 30px;
+    border-style: none;
+    align-self: center;
+    margin-right: 0;
+  }
+  
+}
+
+@media screen and (max-width: 702px) {
+  .movie-list {
+    transition: 0.8s;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+}
+
+@media screen and (max-width: 502px) {
+  .movie-list {
+    transition: 0.8s;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  
+}

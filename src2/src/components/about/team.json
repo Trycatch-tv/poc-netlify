@@ -1,0 +1,52 @@
+[
+    {
+        "id": 1,
+        "image": "ManuelaGomez.JPEG",
+        "name": "Manuela Gómez",
+        "email": "manu.gomez.e@gmail.com",
+        "position": "Frontend Developer",
+        "description": "",
+        "gitHub": "https://github.com/manugomz",
+        "linkedIn": "https://www.linkedin.com/in/manuela-g%C3%B3mez-a5547a125/"
+    },
+    {
+        "id": 2,
+        "image": "CristianGarcia.png",
+        "name": "Cristian Garcia",
+        "email": "2000sajo@gmail.com",
+        "position": "Full-Stack Developer",
+        "description": "",
+        "gitHub": "https://github.com/cristianc2ga",
+        "linkedIn": "https://www.linkedin.com/in/cristiangarciaalarcon/"
+    },
+    {
+        "id": 3,
+        "image": "NicolGuevara.jpg",
+        "name": "Nicol Guevara",
+        "email": "nicgueca@outlook.com",
+        "position": "Frontend Developer",
+        "description": "",
+        "gitHub": "https://github.com/Neofitar",
+        "linkedIn": "https://www.linkedin.com/in/nicol-guevara/"
+    },
+    {
+        "id": 4,
+        "image": "default.png",
+        "name": "Juangui Ramirez",
+        "email": "lapulguita04@gmail.com",
+        "position": "Backend Developer",
+        "description": "",
+        "gitHub": "https://github.com/Juangui-ramirez",
+        "linkedIn": ""
+    },
+    {
+        "id": 5,
+        "image": "LuisDavidLopezZapata.jpg",
+        "name": "Luis López",
+        "email": "luisdavidlz0202@gmail.com",
+        "position": "Team Lead",
+        "description": "",
+        "gitHub": "https://github.com/luisdavid0202",
+        "linkedIn": "https://www.linkedin.com/in/luis-david-lopez-zapata-7377a0153/"
+    }
+]
